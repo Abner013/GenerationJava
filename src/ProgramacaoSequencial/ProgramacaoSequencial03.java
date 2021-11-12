@@ -1,8 +1,12 @@
-package Exercicios;
+package ProgramacaoSequencial;
 
 import java.util.Scanner;
 
 public class ProgramacaoSequencial03 {
+	
+	/*3. Faça um sistema que leia o tempo de duração de um evento em uma 
+	 * fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos. */
+	
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		

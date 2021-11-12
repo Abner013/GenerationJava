@@ -1,8 +1,11 @@
-package Exercicios;
+package ProgramacaoSequencial;
 
 import java.util.Scanner;
 
 public class ProgramacaoSequencial02 {
+	
+	/*2. Faça um sistema que leia a idade de uma pessoa expressa em dias e mostre-a expressa em anos, meses e dias.*/
+	
 	public static void main(String[] args) {
 		
 		Scanner leia = new Scanner(System.in);

@@ -1,8 +1,17 @@
-package Exercicios;
+package ProgramacaoSequencial;
 
 import java.util.Scanner;
 
 public class ProgramacaoSequencial07 {
+	
+	//7. Um sistema de equações lineares do tipo:
+	// ax + by = c
+	// dx + ey = f , pode ser resolvido segundo mostrado abaixo :
+	// x = ce - bf	y = af - cd
+	//     ae - bd	    ae - bd
+	//Escreva um sistema que lê os coeficientes a,b,c,d,e e f e calcula e mostra os valores de x e y.
+	//------------------------------------------------------------
+	
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);
 		

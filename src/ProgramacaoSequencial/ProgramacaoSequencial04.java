@@ -1,8 +1,16 @@
-package Exercicios;
+package ProgramacaoSequencial;
 
 import java.util.Scanner;
 
 public class ProgramacaoSequencial04 {
+	
+		/*Escreva  um sistema que leia três números inteiros e positivos (A, B, C) e calcule a seguinte expressão: 
+		 * d = (r + s) / 2, 
+		 * onde 
+		 * r = (a + b)²  
+		 * s = (b + c)²   
+		 */
+	
 		public static void main(String[] args) {
 			Scanner leia = new Scanner(System.in);
 			
