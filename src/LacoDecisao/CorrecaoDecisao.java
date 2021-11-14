@@ -1,8 +1,8 @@
-package Exercicios;
+package LacoDecisao;
 
 import java.util.Scanner;
 
-public class CorrecaoDecisao {
+public class CorrecaoDecisao { // exercicio 01 correção 
 	
 	public static void main (String [] args) {
 		int a,b,c,n;

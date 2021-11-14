@@ -1,4 +1,4 @@
-package Exercicios;
+package Repeticao;
 
 public class Repeticao01 {
 	public static void main(String[] args){

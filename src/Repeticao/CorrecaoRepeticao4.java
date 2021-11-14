@@ -1,9 +1,9 @@
-package Exercicios;
+package Repeticao;
 
 import java.util.Scanner;
 
 public class CorrecaoRepeticao4 {
-	public static void main (String[] agrs) {
+	public static void main (String[] agrs) {  // exercicio 04
 		Scanner leia = new Scanner(System.in);
 		
 		int idade, genero, fp,contpc = 0, contmn = 0, contha = 0, contoc = 0, contpn40 = 0, contpc18 = 0, x = 1;

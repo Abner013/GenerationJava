@@ -1,4 +1,4 @@
-package Exercicios;
+package LacoDecisao;
 
 public class LacoDecisao02 {
 	public static void main(String[] args) {
