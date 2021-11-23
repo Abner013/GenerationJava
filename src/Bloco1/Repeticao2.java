@@ -12,7 +12,8 @@ public class Repeticao2 { // WHILE & IF = ENQUANTO & SE
 		System.out.println("Entre com sua idade: ");
 		idade = entrada.nextInt();
 		
-		while(idade>=1) { //while = enquanto
+		//while(idade>=1) { //while = enquanto
+		do {
 			System.out.printf("Sua idade: %d",idade);
 			if (idade >= 18) { // if = se
 				System.out.println("\nvocê é de maior ...");
@@ -23,6 +24,7 @@ public class Repeticao2 { // WHILE & IF = ENQUANTO & SE
 			System.out.println("Entre com a sua idade: ");  // aqui e usa para não entrar em lupin infinito
 			idade = entrada.nextInt();
 		}
+		while(idade>=1);
 		
 
 	}
