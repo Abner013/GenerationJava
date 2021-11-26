@@ -68,22 +68,22 @@ public class Ex4 {
 		
 		Scanner ler1 = new Scanner(System.in);
 		
-		double [][] M1 = new double[2][2];
-		double [][] M2 = new double[2][2];
-		double [][] M3 = new double[2][2];
-		int x , y , ops, numero;
+		double [][] M11 = new double[2][2];
+		double [][] M21 = new double[2][2];
+		double [][] M31 = new double[2][2];
+		int x1 , y1 = 0 , ops1 = 0, numero1;
 		
-		for(x = 0; x < 2; x++) {
-			for(y = 0; y < 2; y++) {
+		for(x1 = 0; x1 < 2; x1++) {
+			for(y1 = 0; y1 < 2; y1++) {
 				System.out.println("Escreva um numero ");
-				M1[x][y] = ler.nextDouble();
+				M11[x1][y1] = ler.nextDouble();
 			}
 		}
 		
-		for(x = 0; x < 2; x++) {
-			for(y = 0; y < 2; y++ ) {
+		for(x1 = 0; x1 < 2; x1++) {
+			for(y1 = 0; y1 < 2; y1++ ) {
 				System.out.println("Escreva um numero");
-				M2[x][y] = ler.nextDouble();
+				M21[x1][y1] = ler.nextDouble();
 			}
 		}
 		
@@ -92,79 +92,79 @@ public class Ex4 {
 							+ "\n3 - adicionar uma constante as duas matrizes"
 							+ "\n4 - imprimir as matrizes");
 		
-		if(ops == 1){
-			for(x = 0; x < 2; x++){
-				for(y = 0;y < 2; y++){
-					M3[x][y] = M2[x][y] + M3[x][y];
+		if(ops1 == 1){
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0;y1 < 2; y1++){
+					M31[x1][y1] = M21[x1][y1] + M31[x1][y1];
 				}
 			}
 
 			System.out.println("\nA matriz 1: ");
-			for(x = 0; x < 2; x++){
-				for(y = 0;  y < 2; y++){
-					System.out.printf(" %.2f",M1[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0;  y1 < 2; y1++){
+					System.out.printf(" %.2f",M11[x1][y1],"\n");
                 }
 				System.out.println();
 				}
 		}
 
-		if(ops == 2){
-			for(x = 0; x < 2; x++){
-				for(y = 0; y < 2; y++){
-					M3[x][y] = M1[x][y] - M2[x][y];
+		if(ops1 == 2){
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0; y1 < 2; y1++){
+					M31[x1][y1] = M11[x1][y1] - M21[x1][y1];
 				}
 			}
 			
 			System.out.println("\nA Matriz 3: ");
-			for(x = 0; x < 2; x++){
-				for(x = 0; x < 2; x++){
-					System.out.printf(" %.2f",M3[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(x1 = 0; x1 < 2; x1++){
+					System.out.printf(" %.2f",M31[x1][y1],"\n");
                 }
 				System.out.println();
 				}
 		}
 
-		if(ops == 3){
+		if(ops1 == 3){
 			System.out.println("Escreva o valor constante: ");
-			numero = ler1.nextInt();
+			numero1 = ler1.nextInt();
 
-			for(x = 0; x < 2; x++){
-				for(x = 0; x < 2;x++){
-					M1 [x][y] += numero;
-					M2 [x][y] += numero;
+			for(x1 = 0; x1 < 2; x1++){
+				for(x1 = 0; x1 < 2;x1++){
+					M11 [x1][y1] += numero1;
+					M21 [x1][y1] += numero1;
 				}
 			}
 
 			System.out.println("\nA Matriz 1: ");
-			for(x = 0; x < 2; x++){
-				for(y = 0; y < 2; y++){
-					System.out.printf("%.2f",M1[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0; y1 < 2; y1++){
+					System.out.printf("%.2f",M11[x1][y1],"\n");
                 }
 				System.out.println();
 			}
 			
 			System.out.println("\nA Matriz 2: ");
-			for(x = 0; x < 2; x++){
-				for(x = 0; x < 2; x++){
-					System.out.printf(" %.2f",M2[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(x1 = 0; x1 < 2; x1++){
+					System.out.printf(" %.2f",M21[x1][y1],"\n");
 				}
 				System.out.println();
 			}
 		}
 
-		if(ops == 4){
+		if(ops1 == 4){
 			System.out.println("\n Matriz A: ");
-			for(x = 0; x < 2; x++){
-				for(y = 0; y < 2; y++){
-					System.out.printf(" %.2f",M1[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0; y1 < 2; y1++){
+					System.out.printf(" %.2f",M11[x1][y1],"\n");
                 }
 				System.out.println();
 			}
 			
 			System.out.println("\nA Matriz 2: ");
-			for(x = 0; x < 2; x++){
-				for(y = 0; y < 2 ; y++){
-					System.out.printf(" %.2f",M2[x][y],"\n");
+			for(x1 = 0; x1 < 2; x1++){
+				for(y1 = 0; y1 < 2 ; y1++){
+					System.out.printf(" %.2f",M21[x1][y1],"\n");
 				}
 				System.out.println();
 				}
